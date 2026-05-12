@@ -6,6 +6,11 @@ import photo2 from './assets/photos/2.jpg'
 import photo3 from './assets/photos/3.jpg'
 import photo4 from './assets/photos/4.jpg'
 import photo5 from './assets/photos/5.jpg'
+import photo6 from './assets/photos/6.jpg'
+import photo7 from './assets/photos/7.jpg'
+import photo8 from './assets/photos/8.jpg'
+import photo9 from './assets/photos/9.jpg'
+import photo10 from './assets/photos/10.jpg'
 
 // Временные данные — позже мы заменим их на реальные тексты
 const projectData = {
@@ -18,6 +23,11 @@ const projectData = {
       { id: 3, src: photo3, caption: "Здесь будет подпись к третьей фотографии (сортировка)." },
       { id: 4, src: photo4, caption: "Здесь будет подпись к четвертой фотографии (девушка на складе)." },
       { id: 5, src: photo5, caption: "Здесь будет подпись к пятой фотографии (группа волонтеров)." },
+      { id: 6, src: photo6, caption: "Здесь будет подпись к шестой фотографии (коробка с лампочками)." },
+      { id: 7, src: photo7, caption: "Здесь будет подпись к седьмой фотографии (девушка на складе, другой ракурс)." },
+      { id: 8, src: photo8, caption: "Здесь будет подпись к восьмой фотографии (ребенок у контейнеров)." },
+      { id: 9, src: photo9, caption: "Здесь будет подпись к девятой фотографии (собака у ящика со стеклом)." },
+      { id: 10, src: photo10, caption: "Здесь будет подпись к десятой фотографии (мужчина со смартфоном у гаража)." },
     ]
   },
   en: {
@@ -29,6 +39,11 @@ const projectData = {
       { id: 3, src: photo3, caption: "Caption for the third photo goes here." },
       { id: 4, src: photo4, caption: "Caption for the fourth photo goes here." },
       { id: 5, src: photo5, caption: "Caption for the fifth photo goes here." },
+      { id: 6, src: photo6, caption: "Caption for the sixth photo goes here." },
+      { id: 7, src: photo7, caption: "Caption for the seventh photo goes here." },
+      { id: 8, src: photo8, caption: "Caption for the eighth photo goes here." },
+      { id: 9, src: photo9, caption: "Caption for the ninth photo goes here." },
+      { id: 10, src: photo10, caption: "Caption for the tenth photo goes here." },
     ]
   }
 };
