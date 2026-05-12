@@ -1,10 +1,7 @@
-import './App.css'
-
 function App() {
   return (
-    <div className="app">
-      <h1>Parki AR Minda</h1>
-      <p>Добро пожаловать! Проект запущен 🚀</p>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', fontSize: '3rem' }}>
+      Hello World
     </div>
   )
 }
