@@ -1,24 +1,34 @@
 import { useState } from 'react'
 import './App.css'
 
-// Временные данные — позже мы заменим их на реальные тексты и фото
+import photo1 from './assets/photos/1.jpg'
+import photo2 from './assets/photos/2.jpg'
+import photo3 from './assets/photos/3.jpg'
+import photo4 from './assets/photos/4.jpg'
+import photo5 from './assets/photos/5.jpg'
+
+// Временные данные — позже мы заменим их на реальные тексты
 const projectData = {
   ru: {
     title: "Parki ar minda",
     intro: "Это фотопроект, посвященный организации Parki ar minda. Они собирают мусор для дальнейшей переработки.\n\nЗдесь будет ваш вступительный текст. Вы можете написать его в несколько абзацев, и они будут отображаться так же красиво.",
     photos: [
-      { id: 1, src: "https://placehold.co/800x600/e0e0e0/8B0000?text=Photo+1", caption: "Пример подписи к первой фотографии." },
-      { id: 2, src: "https://placehold.co/600x800/e0e0e0/8B0000?text=Photo+2", caption: "А это подпись ко второй фотографии." },
-      { id: 3, src: "https://placehold.co/800x600/e0e0e0/8B0000?text=Photo+3", caption: "И подпись к третьей фотографии." },
+      { id: 1, src: photo1, caption: "Здесь будет подпись к первой фотографии (портрет у стены)." },
+      { id: 2, src: photo2, caption: "Здесь будет подпись ко второй фотографии (граффити)." },
+      { id: 3, src: photo3, caption: "Здесь будет подпись к третьей фотографии (сортировка)." },
+      { id: 4, src: photo4, caption: "Здесь будет подпись к четвертой фотографии (девушка на складе)." },
+      { id: 5, src: photo5, caption: "Здесь будет подпись к пятой фотографии (группа волонтеров)." },
     ]
   },
   en: {
     title: "Parki ar minda",
     intro: "This is a photo project dedicated to the organization Parki ar minda. They collect trash for further recycling.\n\nYour introductory text will be here. You can write it in several paragraphs, and they will be displayed just as beautifully.",
     photos: [
-      { id: 1, src: "https://placehold.co/800x600/e0e0e0/8B0000?text=Photo+1", caption: "Example caption for the first photo." },
-      { id: 2, src: "https://placehold.co/600x800/e0e0e0/8B0000?text=Photo+2", caption: "And this is the caption for the second photo." },
-      { id: 3, src: "https://placehold.co/800x600/e0e0e0/8B0000?text=Photo+3", caption: "And the caption for the third photo." },
+      { id: 1, src: photo1, caption: "Caption for the first photo goes here." },
+      { id: 2, src: photo2, caption: "Caption for the second photo goes here." },
+      { id: 3, src: photo3, caption: "Caption for the third photo goes here." },
+      { id: 4, src: photo4, caption: "Caption for the fourth photo goes here." },
+      { id: 5, src: photo5, caption: "Caption for the fifth photo goes here." },
     ]
   }
 };
