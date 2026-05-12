@@ -139,3 +139,88 @@
   margin-top: 1rem;
   max-width: 75vw;
 }
+
+/* =========================================
+   Адаптив под мобильные устройства (вертикальный скролл)
+   ========================================= */
+@media (max-width: 768px) {
+  /* Включаем обычный вертикальный скролл страницы на мобильных */
+  body {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .app-container {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .header {
+    padding: 1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color); /* чтобы шапка не просвечивала */
+    border-bottom: 1px solid rgba(178, 34, 34, 0.1);
+  }
+
+  .project-title {
+    font-size: 1.4rem;
+  }
+
+  /* Меняем направление галереи с горизонтального на вертикальное */
+  .horizontal-scroll {
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding-bottom: 3rem;
+  }
+
+  .panel {
+    height: auto;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .intro-panel {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .intro-text {
+    font-size: 1.2rem;
+  }
+
+  .photo-panel {
+    gap: 1rem;
+    padding-top: 0;
+  }
+
+  .accent-line-container {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Линия теперь будет горизонтальной, разделяющей секции */
+  .accent-line {
+    width: 100%;
+    height: 4px;
+    margin: 1rem 0;
+  }
+
+  .photo-content {
+    width: 100%;
+  }
+
+  .photo-img {
+    max-height: none;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .photo-caption {
+    max-width: 100%;
+  }
+}
