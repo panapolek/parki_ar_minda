@@ -11,6 +11,11 @@ import photo7 from './assets/photos/7.jpg'
 import photo8 from './assets/photos/8.jpg'
 import photo9 from './assets/photos/9.jpg'
 import photo10 from './assets/photos/10.jpg'
+import photo11 from './assets/photos/11.jpg'
+import photo12 from './assets/photos/12.jpg'
+import photo13 from './assets/photos/13.jpg'
+import photo14 from './assets/photos/14.jpg'
+import photo15 from './assets/photos/15.jpg'
 
 // Временные данные — позже мы заменим их на реальные тексты
 const projectData = {
@@ -28,6 +33,11 @@ const projectData = {
       { id: 8, src: photo8, caption: "Здесь будет подпись к восьмой фотографии (ребенок у контейнеров)." },
       { id: 9, src: photo9, caption: "Здесь будет подпись к девятой фотографии (собака у ящика со стеклом)." },
       { id: 10, src: photo10, caption: "Здесь будет подпись к десятой фотографии (мужчина со смартфоном у гаража)." },
+      { id: 11, src: photo11, caption: "Здесь будет подпись к одиннадцатой фотографии (женщина на складе)." },
+      { id: 12, src: photo12, caption: "Здесь будет подпись к двенадцатой фотографии (стол с деталями для переработки)." },
+      { id: 13, src: photo13, caption: "Здесь будет подпись к тринадцатой фотографии (девушка у красных ворот)." },
+      { id: 14, src: photo14, caption: "Здесь будет подпись к четырнадцатой фотографии (сбор стекла на улице)." },
+      { id: 15, src: photo15, caption: "Здесь будет подпись к пятнадцатой фотографии (собака и девушка в гараже)." },
     ]
   },
   en: {
@@ -44,6 +54,11 @@ const projectData = {
       { id: 8, src: photo8, caption: "Caption for the eighth photo goes here." },
       { id: 9, src: photo9, caption: "Caption for the ninth photo goes here." },
       { id: 10, src: photo10, caption: "Caption for the tenth photo goes here." },
+      { id: 11, src: photo11, caption: "Caption for the eleventh photo goes here." },
+      { id: 12, src: photo12, caption: "Caption for the twelfth photo goes here." },
+      { id: 13, src: photo13, caption: "Caption for the thirteenth photo goes here." },
+      { id: 14, src: photo14, caption: "Caption for the fourteenth photo goes here." },
+      { id: 15, src: photo15, caption: "Caption for the fifteenth photo goes here." },
     ]
   }
 };
@@ -86,7 +101,6 @@ function App() {
               <div className="accent-line"></div>
             </div>
             <div className="photo-content">
-              <div className="photo-counter">{index + 1} / {currentData.photos.length}</div>
               <img src={photo.src} alt={`Photo ${index + 1}`} className="photo-img" />
               <p className="photo-caption">{photo.caption}</p>
             </div>
