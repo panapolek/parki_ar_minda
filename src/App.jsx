@@ -21,7 +21,7 @@ import photo15 from './assets/photos/15.jpg'
 const projectData = {
   ru: {
     title: "Parki ar minda",
-    intro: "Это фотопроект, посвященный организации Parki ar minda. Они собирают мусор для дальнейшей переработки.\n\nЗдесь будет ваш вступительный текст. Вы можете написать его в несколько абзацев, и они будут отображаться так же красиво.",
+    intro: "„Parki ar minda“ («Пакет не нужен») — экологическая организация, которая с 2020 года помогает жителям Тбилиси сортировать мусор. За 2025 год команде „Parki ar minda“ удалось привлечь к сортировке мусора 25 000 тбилисцев и собрать 115 000 тонн отходов. С организацией сотрудничают 65 волонтёров: они принимают и сортируют мусор в трёх точках города — в районах Ваке, Сабуртало и Чугурети.\n\nЯ живу в Тбилиси с 2022 года, но об организации узнала раньше — от подруги, которая волонтёрила в „Parki ar minda“ практически с самого её основания. Мне — часто пребывающей в оцепенении перед экологической катастрофой — было важно узнать поближе людей, которые нашли в себе силы объединиться и действовать вопреки общей тревоге.",
     photos: [
       { id: 1, src: photo1, caption: "Здесь будет подпись к первой фотографии (портрет у стены)." },
       { id: 2, src: photo2, caption: "Здесь будет подпись ко второй фотографии (граффити)." },
@@ -42,7 +42,7 @@ const projectData = {
   },
   en: {
     title: "Parki ar minda",
-    intro: "This is a photo project dedicated to the organization Parki ar minda. They collect trash for further recycling.\n\nYour introductory text will be here. You can write it in several paragraphs, and they will be displayed just as beautifully.",
+    intro: "“Parki ar minda” (“No bag needed”) is an environmental organization that has been helping Tbilisi residents sort their waste since 2020. In 2025, the “Parki ar minda” team managed to attract 25,000 Tbilisi residents to waste sorting and collected 115,000 tons of waste. 65 volunteers collaborate with the organization: they receive and sort waste at three locations in the city — in the Vake, Saburtalo, and Chugureti districts.\n\nI have lived in Tbilisi since 2022, but I learned about the organization earlier — from a friend who has been volunteering at “Parki ar minda” almost since its foundation. For me — often paralyzed in front of an environmental catastrophe — it was important to get to know the people who found the strength to unite and act despite the general anxiety.",
     photos: [
       { id: 1, src: photo1, caption: "Caption for the first photo goes here." },
       { id: 2, src: photo2, caption: "Caption for the second photo goes here." },
