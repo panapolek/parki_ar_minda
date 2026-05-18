@@ -85,7 +85,8 @@
 }
 
 .intro-panel {
-  width: 45vw;
+  width: 65vw;
+  max-width: 900px;
   min-width: 400px;
 }
 
