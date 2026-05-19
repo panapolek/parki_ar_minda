@@ -21,14 +21,14 @@ import photo15 from './assets/photos/15.jpg'
 const projectData = {
   ru: {
     title: "Parki ar minda",
-    intro: "„Parki ar minda“ («Пакет не нужен») — экологическая организация, которая с 2020 года помогает жителям Тбилиси сортировать мусор. За 2025 год команде „Parki ar minda“ удалось привлечь к сортировке мусора 25 000 тбилисцев и собрать 115 тонн отходов. С организацией сотрудничают 65 волонтёров: они принимают и сортируют мусор в трёх точках города — в районах Ваке, Сабуртало и Чугурети.\n\nЯ живу в Тбилиси с 2022 года, но об организации узнала раньше — от подруги, которая волонтёрит в „Parki ar minda“ с первого года открытия. Мне — часто пребывающей в оцепенении перед экологической катастрофой — было важно узнать поближе людей, которые нашли в себе силы объединиться и действовать вопреки общей тревоге.",
+    intro: "Parki ar minda («Пакет не нужен») — экологическая организация, которая с 2020 года помогает жителям Тбилиси сортировать мусор. За 2025 год команде Parki ar minda удалось привлечь к сортировке мусора 25 000 тбилисцев и собрать 115 тонн отходов. С организацией сотрудничают 65 волонтёров: они принимают и сортируют мусор в трёх точках города — в районах Ваке, Сабуртало и Чугурети.\n\nЯ живу в Тбилиси с 2022 года, но об организации узнала раньше — от подруги, которая волонтёрит в Parki ar minda с первого года открытия. Мне — часто пребывающей в оцепенении перед экологической катастрофой — было важно узнать поближе людей, которые нашли в себе силы объединиться и действовать вопреки общей тревоге.",
     photos: [
-      { id: 1, src: photo1, caption: 'Татьяна Ремнёва, соосновательница "Parki ar minda"' },
-      { id: 2, src: photo2, caption: 'Мурал рядом с гаражом "Parki ar minda" в районе Сабуртало' },
+      { id: 1, src: photo1, caption: 'Татьяна Ремнёва, соосновательница Parki ar minda' },
+      { id: 2, src: photo2, caption: 'Мурал рядом с гаражом Parki ar minda в районе Сабуртало' },
       { id: 3, src: photo3, caption: 'Разгрузка стекла для дальнейшей переработки' },
-      { id: 4, src: photo4, caption: 'Диана — преподавательница русского языка для детей-билингвов. Волонтёрит в "Parki ar minda" с 2020 года' },
-      { id: 5, src: photo5, caption: 'Волонтёр проверяет маркировку пластика на выездном гараже в районе Глдани. За 2025 год "Parki ar minda" собрали 22,4 тонны пластика' },
-      { id: 6, src: photo6, caption: 'Каждый килограмм переработанных отходов — это сохранённые ресурсы. Так, за 2025 год "Parki ar minda" своими действиями сохранили электроэнергию для 110 домохозяйств' },
+      { id: 4, src: photo4, caption: 'Диана — преподавательница русского языка для детей-билингвов. Волонтёрит в Parki ar minda с 2020 года' },
+      { id: 5, src: photo5, caption: 'Волонтёр проверяет маркировку пластика на выездном гараже в районе Глдани. За 2025 год Parki ar minda собрали 22,4 тонны пластика' },
+      { id: 6, src: photo6, caption: 'Каждый килограмм переработанных отходов — это сохранённые ресурсы. Так, за 2025 год Parki ar minda своими действиями сохранили электроэнергию для 110 домохозяйств' },
       { id: 7, src: photo7, caption: 'Ира — волонтёрка в гараже района Чугурети. Водит хайки в клубе путешествий «Горный ёж», делает кофе в кофейне «Интроверт», работает на разных проектах с детьми' },
       { id: 8, src: photo8, caption: 'Девочка сдаёт крышки на выездном гараже в Глдани' },
       { id: 9, src: photo9, caption: 'Больше всего на переработку приносят стекла — в 2025 году собрали 63,8 тонн' },
@@ -42,7 +42,7 @@ const projectData = {
   },
   en: {
     title: "Parki ar minda",
-    intro: "“Parki ar minda” (“No bag needed”) is an environmental organization that has been helping Tbilisi residents sort their waste since 2020. In 2025, the “Parki ar minda” team managed to attract 25,000 Tbilisi residents to waste sorting and collected 115 tons of waste. 65 volunteers collaborate with the organization: they receive and sort waste at three locations in the city — in the Vake, Saburtalo, and Chugureti districts.\n\nI have lived in Tbilisi since 2022, but I learned about the organization earlier — from a friend who has been volunteering at “Parki ar minda” since its first year of opening. For me — often paralyzed in front of an environmental catastrophe — it was important to get to know the people who found the strength to unite and act despite the general anxiety.",
+    intro: "\"Parki ar minda\" (\"No bag needed\") is an environmental organization that has been helping Tbilisi residents sort their waste since 2020. In 2025, the \"Parki ar minda\" team managed to attract 25,000 Tbilisi residents to waste sorting and collected 115 tons of waste. 65 volunteers collaborate with the organization: they receive and sort waste at three locations in the city — in the Vake, Saburtalo, and Chugureti districts.\n\nI have lived in Tbilisi since 2022, but I learned about the organization earlier — from a friend who has been volunteering at \"Parki ar minda\" since its first year of opening. For me — often paralyzed in front of an environmental catastrophe — it was important to get to know the people who found the strength to unite and act despite the general anxiety.",
     photos: [
       { id: 1, src: photo1, caption: 'Tatiana Remneva, co-founder of "Parki ar minda"' },
       { id: 2, src: photo2, caption: 'Mural near the "Parki ar minda" garage in the Saburtalo district' },
