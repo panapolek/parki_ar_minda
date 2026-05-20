@@ -127,10 +127,76 @@
   font-weight: 700;
 }
 
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .photo-img {
+  display: block;
   max-height: 65vh;
   max-width: 75vw;
   object-fit: contain;
+}
+
+.quote-toggle {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 240, 0.85);
+  border: 1px solid rgba(139, 0, 0, 0.2);
+  color: var(--header-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.quote-toggle:hover {
+  background: rgba(255, 255, 240, 1);
+  transform: scale(1.05);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.quote-toggle.active .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.quote-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(139, 0, 0, 0.9);
+  color: #FFFFF0;
+  padding: 2rem 5rem 2rem 2rem;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 5;
+  backdrop-filter: blur(4px);
+}
+
+.quote-overlay.visible {
+  transform: translateY(0);
+}
+
+.quote-text {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: var(--font-family);
+  font-style: italic;
 }
 
 .photo-caption {
@@ -223,5 +289,20 @@
 
   .photo-caption {
     max-width: 100%;
+  }
+
+  .quote-toggle {
+    bottom: 1rem;
+    right: 1rem;
+    width: 36px;
+    height: 36px;
+  }
+
+  .quote-overlay {
+    padding: 1.5rem 4rem 1.5rem 1.5rem;
+  }
+
+  .quote-text {
+    font-size: 1rem;
   }
 }
