@@ -119,6 +119,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: min-content;
 }
 
 .photo-counter {
