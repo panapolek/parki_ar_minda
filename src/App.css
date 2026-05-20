@@ -109,7 +109,7 @@
 }
 
 .accent-line {
-  width: 4px;
+  width: 1px;
   height: 60vh;
   background-color: var(--accent-line);
 }
@@ -195,6 +195,8 @@
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 5;
   backdrop-filter: blur(4px);
+  overflow-y: auto;
+  max-height: 100%;
 }
 
 .quote-overlay.visible {
@@ -249,14 +251,14 @@
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: visible;
-    padding: 0 0 3rem 0;
-    gap: 0;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+    gap: 3rem;
   }
 
   .panel {
     height: auto;
     width: 100%;
-    padding: 2rem 1.5rem;
+    padding: 0;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -271,7 +273,7 @@
   }
 
   .photo-panel {
-    gap: 1rem;
+    gap: 3rem;
     padding-top: 0;
   }
 
@@ -283,8 +285,8 @@
   /* Линия теперь будет горизонтальной, разделяющей секции */
   .accent-line {
     width: 100%;
-    height: 4px;
-    margin: 1rem 0;
+    height: 1px;
+    margin: 0;
   }
 
   .photo-content {
