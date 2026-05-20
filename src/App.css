@@ -109,8 +109,8 @@
 }
 
 .accent-line {
-  width: 1px;
-  height: 60vh;
+  width: 2px;
+  height: 100%;
   background-color: var(--accent-line);
 }
 
@@ -285,7 +285,7 @@
   /* Линия теперь будет горизонтальной, разделяющей секции */
   .accent-line {
     width: 100%;
-    height: 1px;
+    height: 2px;
     margin: 0;
   }
 
