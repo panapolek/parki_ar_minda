@@ -137,7 +137,8 @@
   display: block;
   max-height: 65vh;
   max-width: 75vw;
-  object-fit: contain;
+  width: auto;
+  height: auto;
 }
 
 .quote-toggle {
@@ -168,6 +169,11 @@
   transition: transform 0.3s ease;
 }
 
+.quote-toggle.active {
+  background: var(--header-color);
+  color: #FFFFF0;
+}
+
 .quote-toggle.active .arrow-icon {
   transform: rotate(180deg);
 }
@@ -177,8 +183,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(139, 0, 0, 0.9);
-  color: #FFFFF0;
+  background: rgba(255, 255, 240, 0.95);
+  color: var(--header-color);
+  border-top: 1px solid rgba(139, 0, 0, 0.1);
   padding: 2rem 5rem 2rem 2rem;
   box-sizing: border-box;
   transform: translateY(100%);
