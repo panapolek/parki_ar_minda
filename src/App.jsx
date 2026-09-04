@@ -42,7 +42,7 @@ const projectData = {
   },
   en: {
     title: "Parki ar minda",
-    intro: "\"Parki ar minda\" (translated from Georgian as \"No bag needed\") is an environmental organization that has been helping Tbilisi residents sort their waste since 2020. In 2025, the \"Parki ar minda\" team managed to attract 25,000 Tbilisi residents to sorting and collected 115 tons of plastic, glass, and cardboard. 65 volunteers collaborate with the organization: they receive and sort waste at three locations in the city — in the Vake, Saburtalo, and Chugureti districts.\n\nI have lived in Tbilisi since 2022, but I learned about the organization earlier — from a friend who has been volunteering at \"Parki ar minda\" since its first year of opening. For me — often paralyzed in front of an environmental catastrophe — it was important to tell the story of the people who found the strength to unite and act despite the anxiety.",
+    intro: "Parki ar minda (“No bag needed” in Georgian) is an environmental organization that has helped Tbilisi residents sort their waste since 2020.\n\nIn 2025, the organization engaged 25,000 residents in waste sorting and collected 115 tons of plastic, glass, and cardboard. Sixty-five volunteers work with Parki ar minda. They collect and sort waste at three locations in Tbilisi: Vake, Saburtalo, and Chugureti.\n\nI have lived in Tbilisi since 2022, but I learned about the organization earlier from a friend who has volunteered with Parki ar minda since its first year. I often feel powerless in the face of the environmental crisis. For me, it was important to tell the stories of people who chose to act, despite their anxiety, and found a way to come together and make a difference.",
     photos: [
       { id: 1, src: photo1, caption: 'Tatiana Remneva, co-founder of "Parki ar minda"' },
       { id: 2, src: photo2, caption: 'Mural near the "Parki ar minda" garage in the Saburtalo district' },
@@ -102,9 +102,6 @@ function App() {
         {/* Панели с фотографиями */}
         {currentData.photos.map((photo, index) => (
           <section key={photo.id} className="panel photo-panel">
-            <div className="accent-line-container">
-              <div className="accent-line"></div>
-            </div>
             <div className="photo-content">
               <div className="photo-wrapper">
                 <img src={photo.src} alt={`Photo ${index + 1}`} className="photo-img" />

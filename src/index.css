@@ -1,13 +1,13 @@
 :root {
-  --bg-color: #FFFFF0;
-  --text-main: #8B0000;
-  --text-caption: #B22222;
-  --accent-line: #B22222;
-  --header-color: #8B0000;
-  --hover-color: #FF0000;
-  --lang-active: #8B0000;
-  --lang-inactive: #888;
-  --font-family: 'Lora', serif;
+  --bg-color: #EAE7DC;
+  --text-main: #8E8D8A;
+  --text-caption: #8E8D8A;
+  --accent-line: #E85A4F;
+  --header-color: #E85A4F;
+  --hover-color: #E85A4F;
+  --lang-active: #E85A4F;
+  --lang-inactive: #8E8D8A;
+  --font-family: 'IBM Plex Sans', sans-serif;
 }
 
 * {
