@@ -15,7 +15,7 @@
 }
 
 .project-title {
-  font-weight: 700; /* IBM Plex Sans Bold */
+  font-weight: 700; /* B612 Mono Bold */
   font-size: 1.8rem;
   color: var(--header-color);
   margin: 0;
@@ -70,7 +70,7 @@
   background: var(--bg-color);
 }
 .horizontal-scroll::-webkit-scrollbar-thumb {
-  background: rgba(248, 240, 239, 0.5); /* полупрозрачный #F8F0EF */
+  background: rgba(204, 51, 51, 0.3); /* полупрозрачный #CC3333 */
   border-radius: 4px;
 }
 .horizontal-scroll::-webkit-scrollbar-thumb:hover {
@@ -93,7 +93,7 @@
 .intro-text {
   font-size: 1.4rem;
   line-height: 1.8;
-  font-weight: 400; /* IBM Plex Sans Regular */
+  font-weight: 400; /* B612 Mono Regular */
   white-space: pre-wrap; /* чтобы сохранялись переносы строк */
 }
 
@@ -142,7 +142,7 @@
   height: 44px;
   border-radius: 50%;
   background: rgba(253, 252, 248, 0.85);
-  border: 1px solid rgba(248, 240, 239, 0.5);
+  border: 1px solid rgba(204, 51, 51, 0.2);
   color: var(--header-color);
   cursor: pointer;
   display: flex;
@@ -178,7 +178,7 @@
   width: 100%;
   background: rgba(253, 252, 248, 0.95);
   color: var(--header-color);
-  border-top: 1px solid rgba(248, 240, 239, 0.5);
+  border-top: 1px solid rgba(204, 51, 51, 0.15);
   padding: 2rem 5rem 2rem 2rem;
   box-sizing: border-box;
   transform: translateY(100%);
@@ -202,7 +202,7 @@
 }
 
 .photo-caption {
-  font-style: italic; /* IBM Plex Sans Regular курсив */
+  font-style: italic; /* B612 Mono Regular курсив */
   color: var(--text-caption);
   font-size: 1.1rem;
   margin-top: 1rem;
@@ -229,7 +229,7 @@
     position: sticky;
     top: 0;
     background-color: var(--bg-color); /* чтобы шапка не просвечивала */
-    border-bottom: 1px solid rgba(248, 240, 239, 0.5);
+    border-bottom: 1px solid rgba(204, 51, 51, 0.15);
   }
 
   .project-title {

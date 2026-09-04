@@ -1,13 +1,13 @@
 :root {
   --bg-color: #FDFCF8;
-  --text-main: #E3DBCC;
-  --text-caption: #E3DBCC;
-  --accent-line: #F8F0EF;
-  --header-color: #F8F0EF;
-  --hover-color: #F8F0EF;
-  --lang-active: #F8F0EF;
-  --lang-inactive: #E3DBCC;
-  --font-family: 'IBM Plex Sans', sans-serif;
+  --text-main: #11120D;
+  --text-caption: #11120D;
+  --accent-line: #CC3333;
+  --header-color: #CC3333;
+  --hover-color: #CC3333;
+  --lang-active: #CC3333;
+  --lang-inactive: #11120D;
+  --font-family: 'B612 Mono', monospace;
 }
 
 * {
