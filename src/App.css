@@ -198,11 +198,11 @@
   font-size: 1.2rem;
   line-height: 1.6;
   font-family: var(--font-family);
-  font-style: italic;
+  font-style: normal;
 }
 
 .photo-caption {
-  font-style: italic; /* B612 Mono Regular курсив */
+  font-style: normal;
   color: var(--text-caption);
   font-size: 1.1rem;
   margin-top: 1rem;

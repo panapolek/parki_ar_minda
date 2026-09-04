@@ -7,7 +7,8 @@
   --hover-color: #CC3333;
   --lang-active: #CC3333;
   --lang-inactive: #11120D;
-  --font-family: 'B612 Mono', monospace;
+  --font-family: 'B612', sans-serif;
+  --font-family-mono: 'B612 Mono', monospace;
 }
 
 * {
