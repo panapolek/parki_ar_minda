@@ -70,7 +70,7 @@
   background: var(--bg-color);
 }
 .horizontal-scroll::-webkit-scrollbar-thumb {
-  background: rgba(232, 90, 79, 0.3); /* полупрозрачный #E85A4F */
+  background: rgba(248, 240, 239, 0.5); /* полупрозрачный #F8F0EF */
   border-radius: 4px;
 }
 .horizontal-scroll::-webkit-scrollbar-thumb:hover {
@@ -141,8 +141,8 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(234, 231, 220, 0.85);
-  border: 1px solid rgba(232, 90, 79, 0.2);
+  background: rgba(253, 252, 248, 0.85);
+  border: 1px solid rgba(248, 240, 239, 0.5);
   color: var(--header-color);
   cursor: pointer;
   display: flex;
@@ -154,7 +154,7 @@
 }
 
 .quote-toggle:hover {
-  background: rgba(234, 231, 220, 1);
+  background: rgba(253, 252, 248, 1);
   transform: scale(1.05);
 }
 
@@ -176,9 +176,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(234, 231, 220, 0.95);
+  background: rgba(253, 252, 248, 0.95);
   color: var(--header-color);
-  border-top: 1px solid rgba(232, 90, 79, 0.15);
+  border-top: 1px solid rgba(248, 240, 239, 0.5);
   padding: 2rem 5rem 2rem 2rem;
   box-sizing: border-box;
   transform: translateY(100%);
@@ -229,7 +229,7 @@
     position: sticky;
     top: 0;
     background-color: var(--bg-color); /* чтобы шапка не просвечивала */
-    border-bottom: 1px solid rgba(232, 90, 79, 0.15);
+    border-bottom: 1px solid rgba(248, 240, 239, 0.5);
   }
 
   .project-title {
